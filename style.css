@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.body {
+    /* background-image: url("C:\Users\DrozR\OneDrive\Desktop\FrontEnd Development\My Own Projects\Finance Tracker\moneyBackground.webp"); */
+}
+
+.master-container {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Optima, sans-serif;
+    
+}
+
+.header {
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 5rem;
+    margin-bottom: .5rem;
+    letter-spacing: 5px;
+}
+
+.description p {
+    font-size: 17px;
+    margin-bottom: 4rem;
+}
+
+.description {
+    margin: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.first-name,
+.last-name,
+.username,
+.password {
+    height: 2rem;
+    width: 15rem;
+    margin: 40px;
+    margin-top: 5px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 16px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit, .create-account {
+    margin: 0px 15px 15px 0px;
+    height: 3.5rem;
+    width: 15rem;
+    border: 4px solid  #6FC19D;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: #92DCBC;
+    background-color: #388C68;
+}
+
+.submit:hover,
+.create-account:hover {
+    cursor: pointer;
+    background-color: #4FB388;
+    border: 4px solid #286C4E;
+    color: black;
+    font-size: 1.3rem;
+    transform: border .7s ease-in;
+}
